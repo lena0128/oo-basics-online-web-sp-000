@@ -23,5 +23,5 @@ class Book
     @page_count
   end
 
-  attr_accessor :genres
+  attr_accessor :genre
 end
