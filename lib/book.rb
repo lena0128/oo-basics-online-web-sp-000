@@ -15,13 +15,20 @@ class Book
     @author
   end
 
+  # This is a #setter
   def page_count=(num)
     @page_count = num
   end
 
+  # This is the #getter
   def page_count
     @page_count
   end
 
   attr_accessor :genre
+
+  def turn_page
+    puts "Flipping the page...wow, you read fast!"
+  end
+
 end
